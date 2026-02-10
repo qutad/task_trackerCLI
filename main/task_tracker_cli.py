@@ -10,6 +10,7 @@ def load_tasks():
         return json.load(f)
     
 def save_tasks(tasks):
+    print(f"\nHint: All tasks will be saved as a tasks.json in the current directory: {os.getcwd()}")
     with open(db_file, "w") as f:
         json.dump(tasks, f, indent=4)
 
