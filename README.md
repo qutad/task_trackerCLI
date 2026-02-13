@@ -1,19 +1,19 @@
-# 📝 Task Tracker CLI
+# Task Tracker CLI
 
 A lightweight, terminal-based task management system built with Python. This tool allows you to track your daily goals, update their progress, and store them persistently in a local JSON file.
 
----
 
-## 🚀 Features
+
+## Features
 
 * **Persistent Storage:** Tasks are saved to `tasks.json`, so your data persists even after closing the program.
 * **CRUD Operations:** Create, Read, Update, and Delete tasks with simple menu prompts.
 * **Status Filtering:** View all tasks or filter them by `todo`, `in-progress`, or `done`.
 * **Input Validation:** Includes basic error handling for invalid ID entries.
 
----
 
-## 💻 Getting Started
+
+##  Getting Started
 
 ### Prerequisites
 * **Python 3.x** installed on your system.
@@ -25,9 +25,9 @@ A lightweight, terminal-based task management system built with Python. This too
     python task_tracker.py
     ```
 
----
 
-## 🛠️ How to Use
+
+##  How to Use
 
 When you run the script, you will be presented with a menu. Simply enter the number corresponding to your desired action:
 
@@ -40,9 +40,9 @@ When you run the script, you will be presented with a menu. Simply enter the num
 | **5** | **Delete** | Remove a task from the database using its ID. |
 | **q / quit** | **Exit** | Safely close the application. |
 
----
 
-## 📂 Data Storage
+
+##  Data Storage
 
 The application automatically creates a `tasks.json` file in the same directory. The data is structured as follows:
 
